@@ -1,0 +1,51 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header
+{
+    background-color: blue;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1
+{
+    font-size: 48px;
+    color: yellow;
+}
+
+main
+{
+    height: calc(100vh - 15vh);
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main div
+{
+    height: 100%;
+    width: 900px;
+    background: darkgray;
+    overflow: auto;
+}
+
+ul
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+li
+{
+    background-color: #d8c7c7
+}
