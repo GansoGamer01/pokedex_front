@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
 *
 {
     margin: 0;
@@ -7,22 +9,22 @@
 
 header
 {
-    background-color: blue;
-    height: 15vh;
+    background-color: #ff000fcc;
+    height: 20vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 36px;
 }
 
-h1
+a
 {
-    font-size: 48px;
-    color: yellow;
+    height: 96px;
 }
 
 main
 {
-    height: calc(100vh - 15vh);
+    height: calc(100vh - 20vh);
     background-color: gray;
     display: flex;
     flex-direction: column;
@@ -47,5 +49,18 @@ ul
 
 li
 {
-    background-color: #d8c7c7
+    font-size: 32px;
+    display: flex;
+    gap: 4px;
+    padding: 8px;
+    background-color: #d8c7c7;
+    list-style: none;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'lato';
+}
+
+li img
+{
+    height: 240px;
 }
